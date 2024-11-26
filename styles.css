@@ -1,0 +1,104 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero {
+    position: relative;
+    background: url('57e16d243ac69a7299b7240f574a98ba_L.webp') no-repeat center center/cover;
+    height: 70vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.content {
+    padding: 40px 20px;
+}
+
+.content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.content .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.content .grid div {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content .grid div img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.content .grid div h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
